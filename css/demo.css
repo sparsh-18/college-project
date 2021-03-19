@@ -43,7 +43,7 @@ h1.main, p.demos {
 }
 .sp-container h2 {
 	position: absolute;
-	top: 20%;
+	top: 100%;
 	left: 30%;
 	line-height: 100px;
 	height: 90px;
