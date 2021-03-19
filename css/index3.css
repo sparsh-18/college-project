@@ -92,7 +92,7 @@
   height: 250px;
   width: 100%;
   margin: 0;
-  margin-top: 10px;
+  margin-top: -300px;
   padding: 0;
   /* background-color: #f4f9f9; */
   /* background: linear-gradient(rgb(12 10 10 / 76%), rgb(0 0 0 / 74%)), url("../img/crowd2.jpeg"); */
@@ -149,14 +149,14 @@
 
 #days, #hrs, #min, #sec{
     font-size: 5em;
-    color: black;
+    color: #fff;
     font-family: "Audiowide", sans-serif;
 }
 
 .box > h1{
     margin-top: -90px;
     font-size: 1em;
-    color: black;
+    color: #fff;
     font-family: "Audiowide", sans-serif;
 }
 /* event */
@@ -233,7 +233,7 @@
 }
 .infoevent1{
   position: relative;
-  width: 150px;
+  width: 200px;
   height: 150px;
   margin-top: 10px;
   margin-left: -20%;
@@ -244,6 +244,7 @@
 }
 .infoevent1 h2{
   font-size: 30px;
+  font-family: "Audiowide", sans-serif;
 }
 .mic1{
   width:500px;
@@ -479,9 +480,10 @@ footer{
       height: 100px;
     }
     .infoevent1{
-      width: 150px;
+      width: 200px;
       height: 100px;
       margin-top: 15px;
+      margin-left: 10px;
     }
     .pulse{
       width: 100px;
@@ -514,8 +516,9 @@ footer{
       position: absolute;
       z-index: 1000; */
     }
-    .balls{
+    .balls ul{
       /* display: none; */
+      margin-top: 100px;
     }
 
     .contcontainer{
@@ -526,14 +529,14 @@ footer{
       height: 5px;
     }
     .box > h1{
-      margin-top: -350px;
+      margin-top: -360px;
       font-size: 20px;
-      margin-left: 50px;
+      margin-left: 70px;
     }
     #hrs,#min,#sec,#days{
       font-size: 50px;
       margin-left: 30px;
-      margin-top: -500px;
+      margin-top: -550px;
     }
     .hours, .minutes, .seconds, .amorpm{
         width: 7em;
@@ -577,8 +580,23 @@ footer{
     .navbar .menu-list li a{
       font-size: 23px;
     }
-    
+
     .dots{
       margin-left: 270px;
+    }
+    .balls ul li:nth-child(1){
+      background-color:#413c698c;
+    }
+    .balls ul li:nth-child(2){
+      background-color:#4a47a38c;
+    }
+    .balls ul li:nth-child(3){
+      background-color:#e6d5b875;
+    }
+    .balls ul li:nth-child(4){
+      background-color:#5b6d5b8f;
+    }
+    .balls ul li:nth-child(5){
+      background-color:#f1466869;
     }
 }
