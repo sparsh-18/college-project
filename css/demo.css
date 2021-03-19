@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow');
 
 .middle {
-	margin-top: 10px;
+	margin-top: 1px;
 	width: 100%;
-	height: 300px;
+	height: 500px;
 	background: #310404 url(https://i.ytimg.com/vi/wOvQAhzWCrM/maxresdefault.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -43,7 +43,7 @@ h1.main, p.demos {
 }
 .sp-container h2 {
 	position: absolute;
-	top: 100%;
+	top: 20%;
 	left: 30%;
 	line-height: 100px;
 	height: 90px;
@@ -65,6 +65,7 @@ h1.main, p.demos {
 	animation-delay: 0s;
 }
 .sp-container h2.frame-2 {
+	margin-left: 100px;
 	-webkit-animation-delay: 3s;
 	-moz-animation-delay: 3s;
 	-ms-animation-delay: 3s;
@@ -72,6 +73,7 @@ h1.main, p.demos {
 }
 .sp-container h2.frame-3 {
 	 font-size: 50px;
+	 margin-left: 100px;
 	-webkit-animation-delay: 6s;
 	-moz-animation-delay: 6s;
 	-ms-animation-delay: 6s;
@@ -79,7 +81,7 @@ h1.main, p.demos {
 }
 .sp-container h2.frame-4 {
 	font-size: 60px;
-	margin-left: -120px;
+	margin-left: -180px;
 	-webkit-animation-delay: 9s;
 	-moz-animation-delay: 9s;
 	-ms-animation-delay: 9s;
@@ -341,29 +343,32 @@ h1.main, p.demos {
 	}
 }
 @media only screen and (max-width: 868px){
+	.middle{
+		height: 450px;
+	}
 	.sp-container h2.frame-1{
 		font-size: 45px;
 		margin-left: -60px;
-		margin-top: -90px;
+		margin-top: -130px;
 	}
 	.sp-container h2.frame-2{
 		font-size: 45px;
 		margin-left: -60px;
-		margin-top: -90px;
+		margin-top: -130px;
 	}
 	.sp-container h2.frame-3{
 		font-size: 45px;
 		margin-left: -50px;
-		margin-top: -90px;
+		margin-top: -130px;
 	}
 	.sp-container h2.frame-4{
 		font-size: 20px;
 		margin-left: -60px;
-		margin-top: -90px;
+		margin-top: -130px;
 	}
 	.sp-container h2.frame-5{
 		font-size: 29px;
 		margin-left: -88px;
-		margin-top: -90px;
+		margin-top: -130px;
 	}
 }
