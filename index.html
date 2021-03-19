@@ -19,6 +19,11 @@
     <link rel="stylesheet" href="css/index3.css">
     <!-- responsive css -->
     <!-- <link rel="stylesheet" href="css/responsive.css" /> -->
+
+
+    <link rel="stylesheet" href="css/eventslider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.css">
+
   </head>
   <body class="width-100">
     <nav style="background:#1b1b1b87;" class="navbar">
@@ -177,7 +182,7 @@
             </div>
         </div>
     </section>
-    <section class="contents">
+    <section class="contents" style="margin-top: 0; background-color: #e6e6e6;">
       <div class="balls">
           <ul>
             <li></li>
@@ -196,14 +201,12 @@
                   <h1>Days</h1>
               </div>
 
-
               <div class="box">
                   <div class="minutes">
                       <h1 id="hrs">8</h1>
                   </div>
                   <h1>Hours</h1>
               </div>
-
 
               <div class="box">
                   <div class="seconds">
@@ -221,7 +224,7 @@
 
       </div>
     </section>
-    <div class="container-fluid middle">
+    <div class="container-fluid middle" style="margin-top: 0;">
       <div class="sp-container">
        <div class="sp-content">
          <div  class="sp-globe"></div>
@@ -239,23 +242,11 @@
        </div>
       </div>
     </div>
-    <div  class="dotname">
-      <div class="dotnamehead">
-        <h2>Events</h2>
-      </div>
-      <div class="dots">
-        <span>.</span>
-        <span>.</span>
-        <span>.</span>
-        <span>.</span>
-      </div>
-    </div>
-    <!-- dotname of events -->
 
     <section  class="events" id="body">
       <div style="background:transparent;" class="container-fluid event-content">
          <div class="row">
-            <div class="col-md">
+            <div class="col-md-7">
 
               <div id="pls" class="pulse">
                 <svg  id="btnplay" style="display:block;" xmlns="http://www.w3.org/2000/svg" width="10em" height="10em" fill="#343a40ba" class="bi bi-play-fill" viewBox="0 0 16 16">
@@ -267,7 +258,7 @@
               </div>
                   <img class="mic1" src="img/MIC2.html"  alt="">
                   <img class="mic2" src="img/MIC2.html"  alt="">
-                <video class="vid" style="display:none;" id="video1">
+                <video class="vid" style="display:block; opacity: 0.2;" id="video1">
                   <source src="img/eureka.mp4" type="video/mp4">
                     Your browser does not support HTML video.
                   </video>
@@ -322,15 +313,74 @@
          </div>
       </div>
     </section>
-    <footer>
-      <div class="container row">
-        <iframe class="map col-md" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.0978395017673!2d81.75092011492961!3d25.434992328253696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399acccbb108cfeb%3A0xbd80419a93ea5550!2sShambhunath%20Institute%20of%20Engineering%20and%20Technology!5e0!3m2!1sen!2sin!4v1616088141082!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        <div class="footer-cont col-md">
-          <h5>Shambhunath Group Of Institute</h5>
-          <p>Utthan Rd, Near Police Chowki, Kabir Nagar, Devprayagam Colony, Jhalwa, Prayagraj, Uttar Pradesh 211015</p>
-          <div class="links">
 
+<div class="container-fluid" style="background: linear-gradient(rgb(0 0 0), rgb(0 0 0 / 11%)),url('img/crowd2.jpeg'); background-position-y: center ; background-size: cover; background-attachment: fixed;;">
+  
+    <div  class="dotname">
+      <div class="dotnamehead">
+        <h2 style="color: antiquewhite; padding-top: 10px;">Events</h2>
+      </div>
+      <div class="dots">
+        <span>.</span>
+        <span>.</span>
+        <span>.</span>
+        <span>.</span>
+      </div>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+          <div class="col-md-12 heroSlider-fixed">
+            <div class="overlay">
           </div>
+             <!-- Slider -->
+            <div class="slider responsive">
+              <div>
+                <img src="img/events/coding.jpg" alt=""  style="height: 200px; width: 250px; border: 5px solid whitesmoke;"/>
+              </div>
+              <div>
+                <img src="img/events/lets paint3.jpg" alt=""  style="height: 200px; width: 250px; border: 5px solid whitesmoke;"/>
+              </div>
+              <div>
+                <img src="img/events/bahubali.jpg" alt="" style="height: 200px; width: 250px; border: 5px solid whitesmoke;" />
+              </div>
+              <div>
+                <img src="img/events/cricket.jpg" alt="" style="height: 200px; width: 250px; border: 5px solid whitesmoke;" />
+              </div>
+              <div>
+                <img src="img/events/ace of spades.png" alt=""  style="height: 200px; width: 250px; border: 5px solid whitesmoke;"/>
+              </div>
+              <div>
+                <img src="img/events/carraftaar.jpg" alt="" style="height: 200px; width: 250px; border: 5px solid whitesmoke;" />
+              </div>
+              <div>
+                <img src="img/events/counter_strike.jpg" alt=""  style="height: 200px; width: 250px; border: 5px solid whitesmoke;"/>
+              </div>
+              <div>
+                <img src="img/events/lights-camera-action.jpg" alt=""  style="height: 200px; width: 250px; border: 5px solid whitesmoke;"/>
+              </div>
+            </div>
+             <!-- control arrows -->
+            <div class="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            </div>
+            <div class="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+</div>
+    <!-- dotname of events -->
+
+    <footer>
+      <div class="container">
+        <!-- <iframe class="map col-md" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.0978395017673!2d81.75092011492961!3d25.434992328253696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399acccbb108cfeb%3A0xbd80419a93ea5550!2sShambhunath%20Institute%20of%20Engineering%20and%20Technology!5e0!3m2!1sen!2sin!4v1616088141082!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+        <div class="footer-cont col-md d-flex justify-content-center align-items-center">
+          <p style="font-size:large; margin-top: 20px;">Shambhunath Group Of Institutions</p>
         </div>
       </div>
     </footer>
@@ -346,10 +396,12 @@
           if(buttonpl.style.display == "none"){
             buttonpl.style.display = "block";
             buttonpa.style.display = "none";
-            myVideo.style.display = "none";
+            //myVideo.style.display = "none";
+            myVideo.style.opacity = 0.2;
             myVideo.pause();
           }else{
-            myVideo.style.display = "block";
+            //myVideo.style.display = "block";
+            myVideo.style.opacity = 1;
             myVideo.play();
             buttonpl.style.display = "none";
             buttonpa.style.display = "block";
@@ -433,10 +485,11 @@
         }
       }
 
-
     </script>
 
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
+    <script src="js/eventslider.js"></script>
     <script type="text/javascript" src="js/swiper.min.js"></script>
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
