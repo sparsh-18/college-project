@@ -1,5 +1,5 @@
-html {box-sizing: border-box;}
-*, *:before, *:after {box-sizing: inherit;}
+/* html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;} */
 
 img {
     width: 100%;
@@ -7,12 +7,24 @@ img {
     padding: 5px;
 }
 
-
+.slick-dots button{
+  /* margin-left: 100px; */
+  text-decoration: none;
+  /* width: 10px; */
+  /* height: 10px; */
+  border-radius: 50%;
+  border: 0;
+  margin-left: 10px;
+  background-color: grey;
+}
 .slick-dots {
     text-align: center;
-    margin: 0 0 10px 0;
-    padding: 0;
-    li { 
+    margin-left: 470px;
+    margin-top: 10px;
+    /* margin: 0 0 10px 0; */
+    /* padding: 0; */
+    display: inline-flex;
+    li {
         display: inline-block;
         margin-left: 4px;
         margin-right: 4px;
@@ -65,6 +77,10 @@ img {
         .next {
                 display: none !important;
         }
+        .slick-dots{
+          margin-left: 10px;
+        }
+        .slick-track{
+          margin-left: 30px;
+        }
 }
-
-
