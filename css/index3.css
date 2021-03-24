@@ -462,6 +462,34 @@ footer{
 #ev{
   margin-top: 480px;
 }
+
+/* event image hover */
+.eventname {
+  width: 245px;
+  color: white;
+  opacity: 0;
+  z-index: 1000;
+  margin-top: -40%;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+}
+.hover12 figure {
+	background: black;
+}
+.hover12 figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover12 figure:hover img {
+	opacity: .3;
+}
+.hover12 figure:hover .eventname {
+  opacity: 1  ;
+}
+
+
 /* end */
 /* moble view */
 @media only screen and (max-width: 868px){
