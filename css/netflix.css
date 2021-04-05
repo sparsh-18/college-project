@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700,900');
+ .bg {
+	 background: radial-gradient(#fff, #aaa);
+	 background-size: 100vw 100vh;
+	 overflow: hidden;
+	 /* padding-top: 40vh; */
+}
+ .txt {
+	 text-align: center;
+	 font-family: 'Roboto';
+	 font-size: 12vmin;
+	 font-weight: 700;
+	 animation: netflix_style 3.5s infinite;
+	 outline: none;
+	 white-space: nowrap;
+}
+ @keyframes netflix_style {
+	 0% {
+		 text-shadow: 0px 0px transparent1px 1px #aaa2px 2px #aaa3px 3px #aaa4px 4px #aaa5px 5px #aaa6px 6px #aaa7px 7px #aaa8px 8px #aaa9px 9px #aaa10px 10px #aaa11px 11px #aaa12px 12px #aaa13px 13px #aaa14px 14px #aaa15px 15px #aaa16px 16px #aaa17px 17px #aaa18px 18px #aaa19px 19px #aaa20px 20px #aaa21px 21px #aaa22px 22px #aaa23px 23px #aaa24px 24px #aaa25px 25px #aaa26px 26px #aaa27px 27px #aaa28px 28px #aaa29px 29px #aaa30px 30px #aaa31px 31px #aaa32px 32px #aaa33px 33px #aaa34px 34px #aaa35px 35px #aaa36px 36px #aaa37px 37px #aaa38px 38px #aaa39px 39px #aaa40px 40px #aaa41px 41px #aaa42px 42px #aaa43px 43px #aaa44px 44px #aaa45px 45px #aaa46px 46px #aaa47px 47px #aaa48px 48px #aaa49px 49px #aaa50px 50px #aaa51px 51px #aaa52px 52px #aaa53px 53px #aaa54px 54px #aaa55px 55px #aaa56px 56px #aaa57px 57px #aaa58px 58px #aaa59px 59px #aaa60px 60px #aaa61px 61px #aaa62px 62px #aaa63px 63px #aaa64px 64px #aaa65px 65px #aaa66px 66px #aaa67px 67px #aaa68px 68px #aaa69px 69px #aaa70px 70px #aaa71px 71px #aaa72px 72px #aaa73px 73px #aaa74px 74px #aaa75px 75px #aaa76px 76px #aaa77px 77px #aaa78px 78px #aaa79px 79px #aaa80px 80px #aaa81px 81px #aaa82px 82px #aaa83px 83px #aaa84px 84px #aaa85px 85px #aaa86px 86px #aaa87px 87px #aaa88px 88px #aaa89px 89px #aaa90px 90px #aaa91px 91px #aaa92px 92px #aaa93px 93px #aaa94px 94px #aaa95px 95px #aaa96px 96px #aaa97px 97px #aaa98px 98px #aaa99px 99px #aaa100px 100px #aaa;
+		 color: #f3f3f3;
+		 transform: scale(1.5, 1.5);
+	}
+	 10% {
+		 text-shadow: 0px 0px transparent1px 1.5px #aaa2px 3px #aaa3px 4.5px #aaa4px 6px #aaa5px 7.5px #aaa6px 9px #aaa7px 10.5px #aaa8px 12px #aaa9px 13.5px #aaa10px 15px #aaa11px 16.5px #aaa12px 18px #aaa13px 19.5px #aaa14px 21px #aaa15px 22.5px #aaa16px 24px #aaa17px 25.5px #aaa18px 27px #aaa19px 28.5px #aaa20px 30px #aaa21px 31.5px #aaa22px 33px #aaa23px 34.5px #aaa24px 36px #aaa25px 37.5px #aaa26px 39px #aaa27px 40.5px #aaa28px 42px #aaa29px 43.5px #aaa30px 45px #aaa31px 46.5px #aaa32px 48px #aaa33px 49.5px #aaa34px 51px #aaa35px 52.5px #aaa36px 54px #aaa37px 55.5px #aaa38px 57px #aaa39px 58.5px #aaa40px 60px #aaa41px 61.5px #aaa42px 63px #aaa43px 64.5px #aaa44px 66px #aaa45px 67.5px #aaa46px 69px #aaa47px 70.5px #aaa48px 72px #aaa49px 73.5px #aaa50px 75px #aaa51px 76.5px #aaa52px 78px #aaa53px 79.5px #aaa54px 81px #aaa55px 82.5px #aaa56px 84px #aaa57px 85.5px #aaa58px 87px #aaa59px 88.5px #aaa60px 90px #aaa61px 91.5px #aaa62px 93px #aaa63px 94.5px #aaa64px 96px #aaa65px 97.5px #aaa66px 99px #aaa67px 100.5px #aaa68px 102px #aaa69px 103.5px #aaa70px 105px #aaa71px 106.5px #aaa72px 108px #aaa73px 109.5px #aaa74px 111px #aaa75px 112.5px #aaa76px 114px #aaa77px 115.5px #aaa78px 117px #aaa79px 118.5px #aaa80px 120px #aaa81px 121.5px #aaa82px 123px #aaa83px 124.5px #aaa84px 126px #aaa85px 127.5px #aaa86px 129px #aaa87px 130.5px #aaa88px 132px #aaa89px 133.5px #aaa90px 135px #aaa91px 136.5px #aaa92px 138px #aaa93px 139.5px #aaa94px 141px #aaa95px 142.5px #aaa96px 144px #aaa97px 145.5px #aaa98px 147px #aaa99px 148.5px #aaa100px 150px #aaa;
+		 color: #f3f3f3;
+		 transform: scale(1.5, 1.5);
+	}
+	 15% {
+		 color: #f3f3f3;
+	}
+	 20% {
+		 color: #e90418;
+		 text-shadow: none;
+		 transform: scale(1.1, 1.1);
+	}
+	 75% {
+		 opacity: 1;
+	}
+	 80% {
+		 opacity: 0;
+		 color: #e90418;
+		 transform: scale(0.85, 0.9);
+	}
+	 100% {
+		 opacity: 0;
+	}
+}
+ 
